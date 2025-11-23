@@ -1,15 +1,15 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
-// LibraryManagement class to manage the book collection
 public class LibraryManagement {
     public static void main(String[] args) {
         // Step 1: Create a Scanner object for user input
         
+        Scanner scanner=new Scanner(System.in);
+        
         // Step 2: Create an ArrayList to store Book objects
         // Hint: Use ArrayList<Book>
+
+        
         
         // Step 3: Implement a menu-driven program with the following options:
         // 1. Add a book
