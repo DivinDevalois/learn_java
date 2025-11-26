@@ -41,6 +41,6 @@ public class Shape {
     // Hint: Include the name and color in the returned string
 
     public String toSTring(){
-        return "the name of the shape is" + this.name + "and the color is" +this.color ;
+        return "the name of the shape is " + this.name + "and the color is " +this.color ;
     }
 }

@@ -1,5 +1,5 @@
 // Book class to represent a library book
-public class Book {
+class Book {
     // Step 1: Declare private variables for bookTitle, author, publicationYear, and isAvailable
     // Hint: Use appropriate data types (String for title/author, int for year, boolean for availability)
     private String title;
@@ -11,10 +11,10 @@ public class Book {
     // Step 2: Create a constructor that accepts bookTitle, author, and publicationYear
     // Hint: Initialize all fields including setting isAvailable to true by default
 
-    public  Book(){
-        this.title="";
-        this.author="";
-        this.year=0;
+    public  Book(String title, String author, int year){
+        this.title=title;
+        this.author=author;
+        this.year=year;
         this.isAvailable=true;
     }
     
@@ -22,16 +22,16 @@ public class Book {
     // Hint: Use the format: public returnType getVariableName()
 
     public String getTitle(){
-        return this.title;
+        return title;
     }
     public String getAuthor(){
-        return this.author;
+        return author;
     }
     public int getYear(){
-        return this.year;
+        return year;
     }
     public boolean  getStatus(){
-        return this.isAvailable;
+        return isAvailable;
     }
     
     // Step 4: Create public setter methods for relevant variables
