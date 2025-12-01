@@ -174,8 +174,7 @@ public class LibraryManagement {
         if (!hasAvailable) {
             System.out.println("No books are currently available.");
             return;
-        }
-        
+        }  
         // Get book selection
         System.out.print("Enter the number of the book to check out: ");
         try {
